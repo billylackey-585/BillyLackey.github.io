@@ -3576,7 +3576,7 @@ body.is-preload #wrapper.fade-in:before {
 #intro {
     opacity: 1;
     visibility: visible !important;
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 10s ease, transform 10s ease;
 }
 
 
