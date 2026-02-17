@@ -4881,3 +4881,17 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 }
+
+/* Force the navigation bar to be visible on page load */
+#nav {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: 0 !important;
+    position: relative !important; /* This keeps it from overlapping your title */
+    margin-top: 2rem;
+}
+
+/* Optional: Hide the "Continue" arrow if you feel it's redundant now */
+#intro .actions {
+    display: none;
+}
